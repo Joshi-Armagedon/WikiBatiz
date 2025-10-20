@@ -92,15 +92,12 @@ public class WikiBatiz {
         }while (usuarioActivo);
     }
 
-    public static void menu(String[] opciones, String[] mensajes){
+    public static int menu(String[] opciones, String[] mensajes){
         MostrarOpciones("Selecciona una opcion", opciones);
         int eleccion = NumRango(opciones, 1, opciones.length);
         if (eleccion >= opciones.length) {
             VienedeUnMenu = true;
-        }
-        if (eleccion < opciones.length){
-            System.out.println(opciones[eleccion]);
-        }
+        }else{return elección;};
     }
 
     static String[] opcionesDeportivas = {
