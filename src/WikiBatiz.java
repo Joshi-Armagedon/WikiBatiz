@@ -162,32 +162,32 @@ public class WikiBatiz {
 
     public static void MenuActividadesDeportivasCulturales(){
         int mostrar = menu(opcionesDeportivas, mensajeDeportivas);
-Switch(mostrar){
+switch(mostrar){
 case 0: System.out.println("error");break;
 default: System.out.println(mensajeDeportivas[mostrar]);break;
 }
     };
     public static void MenuTramites(){
         int mostrar = menu(opcionesTramites, mensajeTramites);
-Switch(mostrar){
+switch(mostrar){
 case 0: System.out.println("error");break;
 default: System.out.println(mensajeTramites[mostrar]);break;
     };
     public static void MenuAlumnos(){
         int mostrar = menu(opcionesAlumnos, mensajeAlumnos);
-Switch(mostrar){
+switch(mostrar){
 case 0: System.out.println("error");break;
 default: System.out.println(mensajeAlumnos[mostrar]);break;
     };
     public static void MenuEventos(){
         int mostrar = menu(opcionesEventos, mensajeEventos);
-Switch(mostrar){
+switch(mostrar){
 case 0: System.out.println("error");break;
 default: System.out.println(mensajeEventos[mostrar]);break;
     };
     public static void MenuTutorias(){
         int mostrar = menu(opcionesTutorias, mensajeTutorias);
-Switch(mostrar){
+switch(mostrar){
 case 0: System.out.println("error");break;
 default: System.out.println(mensajeTutorias[mostrar]);break;
     };
