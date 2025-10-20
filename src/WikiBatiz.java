@@ -97,7 +97,8 @@ public class WikiBatiz {
         int eleccion = NumRango(opciones, 1, opciones.length);
         if (eleccion >= opciones.length) {
             VienedeUnMenu = true;
-        }else{return elección;};
+        }else{return eleccion;};
+return 0;
     }
 
     static String[] opcionesDeportivas = {
