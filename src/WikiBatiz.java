@@ -113,14 +113,14 @@ public class WikiBatiz {
     }
 
     static String[] opcionesDeportivas = {
-        "1. opcion 1",
-        "2. opcion 2",
-        "3. opcion 3",
+        "1. Consultar horarios",
+        "2. Inscripciones",
+        "3. Maestros titulares",
         "4. Regresar al menu inicial"};
     static String[] mensajeDeportivas = {
-        "1. mensaje 1",
-        "2. mensaje 2",
-        "3. mensaje 3",
+        "1. Horarios",
+        "2. Realiza tus inscripciones en https://forms.gle./xbSYFKxs5oMV5eCG9",
+        "3. Maestros",
         "Espera..."
     };
     static String[] opcionesTutorias = {
@@ -179,7 +179,7 @@ public class WikiBatiz {
                 System.out.println("error");
                 break;
             default:
-                System.out.println(mensajeDeportivas[mostrar]);
+                System.out.println(mensajeDeportivas[mostrar - 1]);
                 break;
         }
     }
@@ -191,7 +191,7 @@ public class WikiBatiz {
                 System.out.println("error");
                 break;
             default:
-                System.out.println(mensajeTramites[mostrar]);
+                System.out.println(mensajeTramites[mostrar - 1]);
                 break;
         }
     }
@@ -203,7 +203,7 @@ public class WikiBatiz {
                 System.out.println("error");
                 break;
             default:
-                System.out.println(mensajeAlumnos[mostrar]);
+                System.out.println(mensajeAlumnos[mostrar - 1]);
                 break;
         }
     }
@@ -215,7 +215,7 @@ public class WikiBatiz {
                 System.out.println("error");
                 break;
             default:
-                System.out.println(mensajeEventos[mostrar]);
+                System.out.println(mensajeEventos[mostrar - 1]);
                 break;
         }
     }
@@ -228,7 +228,7 @@ public class WikiBatiz {
                 System.out.println("error");
                 break;
             default:
-                System.out.println(mensajeTutorias[mostrar]);
+                System.out.println(mensajeTutorias[mostrar - 1]);
                 break;
         }
     }
