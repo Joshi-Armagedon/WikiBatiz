@@ -118,9 +118,9 @@ public class WikiBatiz {
         "3. Maestros titulares",
         "4. Regresar al menu inicial"};
     static String[] mensajeDeportivas = {
-        "1. Horarios",
-        "2. Realiza tus inscripciones en https://forms.gle./xbSYFKxs5oMV5eCG9",
-        "3. Maestros",
+        "Horarios",
+        "Realiza tus inscripciones en https://forms.gle./xbSYFKxs5oMV5eCG9",
+        "Maestros",
         "Espera..."
     };
     static String[] opcionesTutorias = {
@@ -247,10 +247,14 @@ public class WikiBatiz {
                 i = 3;
             } else {
                 Separacion();
-                System.out.println("Contrase\u00F1a incorrecta");
+                if (i != 2){
+                    System.out.println("Contrase\u00F1a incorrecta - Intenta ingresarla de nuevo");
+                }
             }
         }
         if (contrasenaIngresada != contrasenaEsperada) {
+            System.out.println("Demasiados intentos");
+            Separacion();
             reinicio = true;
         } else {
             System.out.println("Ahora eres admin");
