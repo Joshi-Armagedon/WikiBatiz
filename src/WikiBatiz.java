@@ -118,37 +118,7 @@ public class WikiBatiz {
         "3. Maestros titulares",
         "4. Regresar al menu inicial"};
     static String[] mensajeDeportivas = {
-        "[TITULO]
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-[TITULO]
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-| Actividad          | Lunes             | Martes            | Miércoles       | Jueves            | Viernes          |
-| ------------- | ----------------- | ----------------- | --------------- | ----------------- | ---------------- |
-",
+        "[TITULO]",
         "Realiza tus inscripciones en https://forms.gle./xbSYFKxs5oMV5eCG9",
         "Maestros",
         "Espera..."
