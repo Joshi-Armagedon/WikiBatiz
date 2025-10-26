@@ -101,7 +101,7 @@ public class WikiBatiz {
         } while (usuarioActivo);
     }
 
-    public static int menu(String[] opciones, String[] mensajes) {
+    public static int menu(String[] opciones) {
         MostrarOpciones("Selecciona una opcion", opciones);
         int eleccion = NumRango(opciones, 1, opciones.length);
         if (eleccion >= opciones.length) {
@@ -115,12 +115,71 @@ public class WikiBatiz {
     static String[] opcionesDeportivas = {
         "1. Consultar horarios",
         "2. Inscripciones",
-        "3. Maestros titulares",
+        "3. Profesores titulares",
         "4. Regresar al menu inicial"};
     static String[] mensajeDeportivas = {
-        "[TITULO]",
+         //horarios
+            " ╔═════════════════════════════════════════════════════════════════════════════╗" +
+            " ║   Horarios      de    Actividades     Deportivas      y      Culturales     ║" +
+            " ╠═════════════╦═══════════╦════════════╦════════════╦════════════╦════════════╣" +
+            " ║ Actividades ║ Lunes     ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Atletismo   ║10:00-13:00║09:00-13:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Basquetbol  ║12:00-16:00║12:00-16:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Volibol     ║12:00-16:00║12:00-16:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Futbol      ║12:00-15:00║12:00-15:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Tae Kwon Do ║           ║11:00-13:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ║ Americano   ╠═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║             ║           ║15:00-17:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Futbol      ║10:00-12:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ║ Americano   ╠═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║             ║15:00-17:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Tocho       ║11:00-13:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ║ Bandera     ╠═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║             ║15:00-17:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Artes       ║12:00-17:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ║ Visuales    ║ 1er piso  ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Musica      ║09:00-17:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ║ Foklorica   ║ Auditorio ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Danza       ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ║ Folklorica  ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Piano       ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Creacion    ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ║ Literaria   ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
+            " ║ Teatro      ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
+            " ╚═════════════╩═══════════╩════════════╩════════════╩════════════╩════════════╝"
+            ,
+         //inscripciones a actividades
         "Realiza tus inscripciones en https://forms.gle./xbSYFKxs5oMV5eCG9",
-        "Maestros",
+         //Profesores titulares
+        "[Actividades Deportivas] \n" +
+            " Atletismo: Profa. Alma Yadira Quintanar Camacho \n " +
+            " Basquetbol : Prof.Miguel Angel Ramirez Calnacasco & prof. Carlos del Valle Garcia \n" +
+            " Volibol: Prof. Miguel Angel Ramirez Calnasco \n" +
+            " Futbol: Prof.Alfonso Morales Martinez \n" +
+            " Tae Kwon Do: Arturo Wong \n " +
+            " GFutbol Americano Varonil : HEAD COACH Rodrigo Galindo Nava \n" +
+            " Tocho Bandera: HEAD COACH Juan Antonio Rivas Garcia \n" +
+        "[Actividades Culturales] \n" +
+                " Artes Visuales : Prof. Guadalupe de la Rosa Castelan \n " +
+                " Musica Folklorica: Prof. Julio de la Cruz Rodriguez \n" +
+                " Danza Folklorica: Prof. Emmanuel Flores Don Juan \n" +
+                " Piano: Prof.Eduardo Gomez Alarcon \n" +
+                " Creacion Literaria Profa. Rosa Maria Getino \n" +
+                " Teatro: Prof. Alexis Badillo Ortiz \n"
+            ,
         "Espera..."
     };
     static String[] opcionesTutorias = {
@@ -173,7 +232,7 @@ public class WikiBatiz {
     };
 
     public static void MenuActividadesDeportivasCulturales() {
-        int mostrar = menu(opcionesDeportivas, mensajeDeportivas);
+        int mostrar = menu(opcionesDeportivas);
         switch (mostrar) {
             case 0:
                 System.out.println("error");
@@ -185,7 +244,7 @@ public class WikiBatiz {
     }
 
     public static void MenuTramites() {
-        int mostrar = menu(opcionesTramites, mensajeTramites);
+        int mostrar = menu(opcionesTramites);
         switch (mostrar) {
             case 0:
                 System.out.println("error");
@@ -197,7 +256,7 @@ public class WikiBatiz {
     }
 
     public static void MenuAlumnos() {
-        int mostrar = menu(opcionesAlumnos, mensajeAlumnos);
+        int mostrar = menu(opcionesAlumnos);
         switch (mostrar) {
             case 0:
                 System.out.println("error");
@@ -209,7 +268,7 @@ public class WikiBatiz {
     }
 
     public static void MenuEventos() {
-        int mostrar = menu(opcionesEventos, mensajeEventos);
+        int mostrar = menu(opcionesEventos);
         switch (mostrar) {
             case 0:
                 System.out.println("error");
@@ -220,9 +279,8 @@ public class WikiBatiz {
         }
     }
 
-    ;
     public static void MenuTutorias() {
-        int mostrar = menu(opcionesTutorias, mensajeTutorias);
+        int mostrar = menu(opcionesTutorias);
         switch (mostrar) {
             case 0:
                 System.out.println("error");
