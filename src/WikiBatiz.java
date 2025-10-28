@@ -119,47 +119,47 @@ public class WikiBatiz {
         "4. Regresar al menu inicial"};
     static String[] mensajeDeportivas = {
          //horarios
-            " ╔═════════════════════════════════════════════════════════════════════════════╗" +
-            " ║   Horarios      de    Actividades     Deportivas      y      Culturales     ║" +
-            " ╠═════════════╦═══════════╦════════════╦════════════╦════════════╦════════════╣" +
-            " ║ Actividades ║ Lunes     ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Atletismo   ║10:00-13:00║09:00-13:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Basquetbol  ║12:00-16:00║12:00-16:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Volibol     ║12:00-16:00║12:00-16:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Futbol      ║12:00-15:00║12:00-15:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Tae Kwon Do ║           ║11:00-13:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ║ Americano   ╠═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║             ║           ║15:00-17:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Futbol      ║10:00-12:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ║ Americano   ╠═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║             ║15:00-17:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Tocho       ║11:00-13:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ║ Bandera     ╠═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║             ║15:00-17:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Artes       ║12:00-17:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ║ Visuales    ║ 1er piso  ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Musica      ║09:00-17:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ║ Foklorica   ║ Auditorio ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Danza       ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ║ Folklorica  ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Piano       ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Creacion    ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ║ Literaria   ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣" +
-            " ║ Teatro      ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║" +
-            " ╚═════════════╩═══════════╩════════════╩════════════╩════════════╩════════════╝"
+            " ╔═════════════════════════════════════════════════════════════════════════════╗ \n" +
+            " ║   Horarios      de    Actividades     Deportivas      y      Culturales     ║ \n" +
+            " ╠═════════════╦═══════════╦════════════╦════════════╦════════════╦════════════╣ \n" +
+            " ║ Actividades ║ Lunes     ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Atletismo   ║10:00-13:00║09:00-13:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Basquetbol  ║12:00-16:00║12:00-16:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Volibol     ║12:00-16:00║12:00-16:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Futbol      ║12:00-15:00║12:00-15:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Tae Kwon Do ║           ║11:00-13:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ║             ╠═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║             ║           ║15:00-17:00 ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Futbol      ║10:00-12:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ║ Americano   ╠═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║             ║15:00-17:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Tocho       ║11:00-13:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ║ Bandera     ╠═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║             ║15:00-17:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Artes       ║12:00-17:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ║ Visuales    ║ 1er piso  ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Musica      ║09:00-17:00║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ║ Foklorica   ║ Auditorio ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Danza       ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ║ Folklorica  ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Piano       ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Creacion    ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ║ Literaria   ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╠═════════════╬═══════════╬════════════╬════════════╬════════════╬════════════╣ \n" +
+            " ║ Teatro      ║           ║ Martes     ║ Miércoles  ║ Jueves     ║ Viernes    ║ \n" +
+            " ╚═════════════╩═══════════╩════════════╩════════════╩════════════╩════════════╝ \n"
             ,
          //inscripciones a actividades
         "Realiza tus inscripciones en https://forms.gle./xbSYFKxs5oMV5eCG9",
@@ -219,15 +219,117 @@ public class WikiBatiz {
         "Espera..."
     };
     static String[] opcionesTramites = {
-        "1. opcion 1",
-        "2. opcion 2",
-        "3. opcion 3",
-        "4. Regresar al menu inicial"
+        "1. Solicitud de Dictamen",
+        "2. Cambios de carrera o plantel",
+        "3. Inscripción/ Reinscripción",
+        "4. Proceso de Saberes Previos",
+        "5. Trayectoria, constancias y boletas",
+        "6. Bajas temporales y definitivas",
+        "7. Certificados y documentacion de egreso",
+        "8. Regresar al menu inicial "
     };
     static String[] mensajeTramites = {
-        "1. mensaje 1",
-        "2. mensaje 2",
-        "3. mensaje 3",
+        //1Dictamen
+        "El periodo de recepción de solicitudes se lleva  " +
+                "a cabo al final del proceso de inscripción de cada " +
+                "semestre. " +
+                "Los alumnos que hayan incumplido con lo esta- " +
+                "blecido en el Reglamento General de Estudios y " +
+                "deseen regularizar su situación escolar, deben " +
+                "solicitar Dictamen: " +
+                "Cuando el alumno aún puede terminar sus estu- " +
+                "dios de nivel medio superior en los términos del " +
+                "Art. 49 del Reglamento General de Estudios " +
+                "(4 años y medio). " +
+                "Cuando el alumno el alumno rebasa el término " +
+                "establecido por el Art. 49 del Reglamento Gen- " +
+                "eral de Estudios para el término de sus estudios " +
+                "(más de 4 años y medio). " +
+                "Para solicitarlo, deben enviar un mensaje de " +
+                "correo electrónico a gestion.escolar.cecyt9@gmail.com indicando " +
+                "nombre completo, número de boleta y situación " +
+                "escolar"
+        ,
+        //2CambiodePlantelCarrera
+        "La convocatoria se publica al final de cada se- " +
+                "mestre en la siguiente página web: " +
+                "www.dae.ipn.mx/cambiosua/"
+        ,
+        //3InscripcionReinscripcion
+        "Las fechas y los procedimientos " +
+                "se publican en la página del " +
+                "CECyT y se difunden a través de " +
+                "los medios oficiales del plantel. " +
+                "La reinscripción NUNCA es au- " +
+                "tomática y es obligación del " +
+                "alumno estar atento a los co- " +
+                "municados que se publican en la " +
+                "página del plantel y de realizar " +
+                "los trámites correspondientes en " +
+                "tiempo y forma. " +
+                "De igual forma, el alumno debe " +
+                "informar de manera INMEDIATA " +
+                "cualquier problema que tenga " +
+                "con su registro de inscripción. " +
+                "Toda la información que el alum- " +
+                "no proporciona al plantel está " +
+                "protegida por el aviso de privaci- " +
+                "dad de la institución y la vera- " +
+                "cidad de los datos es res- " +
+                "ponsabilidad única del alumno. " +
+                "Estos datos son utilizados para " +
+                "la difusión de información ofi- " +
+                "cial, para el trámite de becas y " +
+                "otros estímulos, de documentos " +
+                "de egreso y para ponerse en " +
+                "contacto con sus padres y/o " +
+                "tutores en casos de emergencia"
+        ,
+        //4SaberesPrevios
+        "El proceso se lleva a cabo al inicio de " +
+                "cada semestre. Las fechas y procedi- " +
+                "mientos se publican en la página del " +
+                "CECyT.",
+        //5Trayectoria
+        "El departamento de Gestión Escolar " +
+                "expide, a solicitud del alumno, bo- " +
+                "letas y constancias para diversor " +
+                "trámites. Para solicitarlas, se debe " +
+                "hacer el registro en las ligas abajo " +
+                "indicadas:" +
+                "• Boletas de calificaciones " +
+                "https://forms.gle/bm3cfuW85rcozhid6" +
+                "• Constancias de Estudio " +
+                "https://forms.gle/P8b2S7SndaYynn5ZA",
+        //6Bajas
+        "BAJA TEMPORAL \n" +
+                "Se solicita en los primeros 30 días " +
+                "posteriores a la inscripción y puede " +
+                "ser por 6 \n meses o por 1 año Para solicitarla, se debe escribir un " +
+                "correo electrónico al departamento " +
+                "solicitando la liga de registro. \n" +
+                "• BAJA DEFINITIVA \n" +
+                "Para solicitarla, primero se debe hacer " +
+                "el registro en la siguiente liga: \n " +
+                "https://forms.gle/phqbsmwKobLqEt8i7 \n" +
+                "Después se debe solicitar el trámite de " +
+                "una boleta global de calificaciones " +
+                "(3 firmas) en la siguiente liga: \n" +
+                "https://forms.gle/bm3cfuW85rcozhid6\n",
+        //7Egreso
+        "CERTIFICACIÓN INTEGRAL " +
+                "Se lleva a cabo únicamente en el perio-" +
+                "do intersemestral del mes de julio y " +
+                "sirve para agilizar el proceso de certifi- " +
+                "cación del alumno. El procedimiento se " +
+                "publica en la página del plantel." +
+                "• ENTREGA DE DOCUMENTACIÓN " +
+                "DE EGRESO " +
+                "Se lleva a cabo al final de cada semes- " +
+                "tre para los alumnos que han concluido " +
+                "satisfactoriamente sus estudios. El " +
+                "procedimiento se publica en la página " +
+                "del plantel",
         "Espera..."
     };
 
