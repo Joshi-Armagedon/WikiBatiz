@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class WikiBatiz {
@@ -186,7 +185,7 @@ public class WikiBatiz {
         "Espera..."
     };
     static String[] opcionesTutorias = {
-        "1. opcion 1",
+        "1. Consultar horarios",
         "2. opcion 2",
         "3. opcion 3",
         "4. Regresar al menu inicial"
@@ -441,7 +440,7 @@ public class WikiBatiz {
     public static void ImprimirNombre() {
         System.out.println(" ____________________________________________________________________________________________________________ ");
         System.out.println("|                                                                                                            |");
-        System.out.println("|      :::       ::: ::::::::::: :::    ::: ::::::::::: :::::::::      ::: ::::::::::: ::::::::::: ::::::::: |");
+        System.out.println("|      :::       ::: ::::::::::: :::    ::: ::::::::::: :::::::::      ::: ::::::::::: ::::::::::: ::::: :::: |");
         System.out.println("|     :+:       :+:     :+:     :+:   :+:      :+:     :+:    :+:   :+: :+:   :+:         :+:          :+:   |");
         System.out.println("|    +:+       +:+     +:+     +:+  +:+       +:+     +:+    +:+  +:+   +:+  +:+         +:+         +:+     |");
         System.out.println("|   +#+  +:+  +#+     +#+     +#++:++        +#+     +#++:++#+  +#++:++#++: +#+         +#+        +#+       |");
