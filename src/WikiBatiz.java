@@ -108,7 +108,7 @@ public class WikiBatiz {
             VienedeUnMenu = true;
         } else {
             return eleccion;
-        };
+        }
         return 0;
     }
 
@@ -224,7 +224,7 @@ public class WikiBatiz {
     static String[] opcionesTramites = {
         "1. Solicitud de Dictamen",
         "2. Cambios de carrera o plantel",
-        "3. Inscripción/ Reinscripción",
+        "3. Inscripci\u00F3n/ Reinscripci\u00F3n",
         "4. Proceso de Saberes Previos",
         "5. Trayectoria, constancias y boletas",
         "6. Bajas temporales y definitivas",
@@ -233,106 +233,78 @@ public class WikiBatiz {
     };
     static String[] mensajeTramites = {
         //1Dictamen
-        "El periodo de recepción de solicitudes se lleva  " +
-                "a cabo al final del proceso de inscripción de cada " +
-                "semestre. " +
-                "Los alumnos que hayan incumplido con lo esta- " +
-                "blecido en el Reglamento General de Estudios y " +
-                "deseen regularizar su situación escolar, deben " +
-                "solicitar Dictamen: " +
-                "Cuando el alumno aún puede terminar sus estu- " +
-                "dios de nivel medio superior en los términos del " +
-                "Art. 49 del Reglamento General de Estudios " +
-                "(4 años y medio). " +
-                "Cuando el alumno el alumno rebasa el término " +
-                "establecido por el Art. 49 del Reglamento Gen- " +
-                "eral de Estudios para el término de sus estudios " +
-                "(más de 4 años y medio). " +
-                "Para solicitarlo, deben enviar un mensaje de " +
-                "correo electrónico a gestion.escolar.cecyt9@gmail.com indicando " +
-                "nombre completo, número de boleta y situación " +
-                "escolar"
+        "El periodo de recepci\u00F3n de solicitudes se lleva  \n" +
+                "a cabo al final del proceso de inscripci\u00F3n de cada \n" +
+                "semestre. \n" +
+                "Los alumnos que hayan incumplido con lo esta- \n" +
+                "blecido en el Reglamento General de Estudios y \n" +
+                "deseen regularizar su situaci\u00F3n escolar, deben \n" +
+                "solicitar Dictamen: \n" +
+                "Cuando el alumno a\u00FAn puede terminar sus estu- \n" +
+                "dios de nivel medio superior en los t\u00E9rminos del \n" +
+                "Art. 49 del Reglamento General de Estudios \n" +
+                "(4 años y medio). \n" +
+                "Cuando el alumno el alumno rebasa el t\u00E9rmino \n" +
+                "establecido por el Art. 49 del Reglamento General de \n" +
+                "Estudios para el t\u00E9rmino de sus estudios (m\u00E1s de 4 a\u00F1os \n" +
+                "y medio). \n" +
+                "Para solicitarlo, deben enviar un mensaje de correo electr\u00F3nico \n" +
+                "a gestion.escolar.cecyt9@gmail.com indicando nombre completo,\n" +
+                " n\u00FAmero de boleta y situaci\u00F3n escolar \n"
         ,
         //2CambiodePlantelCarrera
-        "La convocatoria se publica al final de cada se- " +
-                "mestre en la siguiente página web: " +
-                "www.dae.ipn.mx/cambiosua/"
+        "La convocatoria se publica al final de cada semestre en la siguiente p\u00E1gina web: \n" +
+                "www.dae.ipn.mx/cambiosua/ \n"
         ,
         //3InscripcionReinscripcion
-        "Las fechas y los procedimientos " +
-                "se publican en la página del " +
-                "CECyT y se difunden a través de " +
-                "los medios oficiales del plantel. " +
-                "La reinscripción NUNCA es au- " +
-                "tomática y es obligación del " +
-                "alumno estar atento a los co- " +
-                "municados que se publican en la " +
-                "página del plantel y de realizar " +
-                "los trámites correspondientes en " +
-                "tiempo y forma. " +
-                "De igual forma, el alumno debe " +
-                "informar de manera INMEDIATA " +
-                "cualquier problema que tenga " +
-                "con su registro de inscripción. " +
-                "Toda la información que el alum- " +
-                "no proporciona al plantel está " +
-                "protegida por el aviso de privaci- " +
-                "dad de la institución y la vera- " +
-                "cidad de los datos es res- " +
-                "ponsabilidad única del alumno. " +
-                "Estos datos son utilizados para " +
-                "la difusión de información ofi- " +
-                "cial, para el trámite de becas y " +
-                "otros estímulos, de documentos " +
-                "de egreso y para ponerse en " +
-                "contacto con sus padres y/o " +
-                "tutores en casos de emergencia"
+                "Las fechas y los procedimientos se publican en la p\u00E1gina del \n" +
+                        "CECyT y se difunden a trav\u00E9s de los medios oficiales del plantel. \n" +
+                        "La reinscripci\u00F3n NUNCA es autom\u00E1tica y es obligaci\u00F3n del \n" +
+                "alumno estar atento a los comunicados que se publican en la \n" +
+                "página del plantel y de realizar los trámites correspondientes en \n" +
+                "tiempo y forma. \n" +
+                "De igual forma, el alumno debe informar de manera INMEDIATA \n" +
+                        "cualquier problema que tenga con su registro de inscripci\u00F3n. \n" +
+                        "Toda la informaci\u00F3n que el alumno proporciona al plantel est\u00E1 \n" +
+                        "protegida por el aviso de privacidad de la instituci\u00F3n y la\n" +
+                        " veracidad de los datos es responsabilidad \u00FAnica del alumno. \n" +
+                        "Estos datos son utilizados para la difusi\u00F3n de informaci\u00F3n \n" +
+                        "oficial, para el tr\u00E1mite de becas y otros est\u00EDmulos, de documentos \n" +
+                "de egreso y para ponerse en contacto con sus padres y/o \n" +
+                "tutores en casos de emergencia \n"
         ,
         //4SaberesPrevios
-        "El proceso se lleva a cabo al inicio de " +
-                "cada semestre. Las fechas y procedi- " +
-                "mientos se publican en la página del " +
-                "CECyT.",
+                "El proceso se lleva a cabo al inicio de cada semestre. Las fechas y \n" +
+                        " procedimientos se publican en la p\u00E1gina del CECyT.\n",
         //5Trayectoria
-        "El departamento de Gestión Escolar " +
-                "expide, a solicitud del alumno, bo- " +
-                "letas y constancias para diversor " +
-                "trámites. Para solicitarlas, se debe " +
-                "hacer el registro en las ligas abajo " +
-                "indicadas:" +
-                "• Boletas de calificaciones " +
-                "https://forms.gle/bm3cfuW85rcozhid6" +
-                "• Constancias de Estudio " +
-                "https://forms.gle/P8b2S7SndaYynn5ZA",
+                "El departamento de Gesti\u00F3n Escolar expide, a solicitud del alumno, \n" +
+                        "boletas y constancias para diversor tr\u00E1mites. Para solicitarlas, se debe \n" +
+                "hacer el registro en las ligas abajo indicadas: \n" +
+                "Boletas de calificaciones \n" +
+                "https://forms.gle/bm3cfuW85rcozhid6 \n" +
+                "Constancias de Estudio \n" +
+                "https://forms.gle/P8b2S7SndaYynn5ZA \n",
         //6Bajas
         "BAJA TEMPORAL \n" +
-                "Se solicita en los primeros 30 días " +
-                "posteriores a la inscripción y puede " +
-                "ser por 6 \n meses o por 1 año Para solicitarla, se debe escribir un " +
-                "correo electrónico al departamento " +
-                "solicitando la liga de registro. \n" +
-                "• BAJA DEFINITIVA \n" +
-                "Para solicitarla, primero se debe hacer " +
-                "el registro en la siguiente liga: \n " +
+                "Se solicita en los primeros 30 d\u00EDas posteriores a la inscripci\u00F3n \n" +
+                " y puede ser por 6  meses o por 1 a\u00F1o Para solicitarla, se debe \n" +
+                "escribir un correo electr\u00F3nico al departamento solicitando la liga de\n " +
+                "registro. \n" +
+                "BAJA DEFINITIVA \n" +
+                "Para solicitarla, primero se debe hacer el registro en la siguiente liga: \n " +
                 "https://forms.gle/phqbsmwKobLqEt8i7 \n" +
-                "Después se debe solicitar el trámite de " +
-                "una boleta global de calificaciones " +
+                "Despu\u00E9s se debe solicitar el tr\u00E1mite de una boleta global de calificaciones \n" +
                 "(3 firmas) en la siguiente liga: \n" +
                 "https://forms.gle/bm3cfuW85rcozhid6\n",
         //7Egreso
-        "CERTIFICACIÓN INTEGRAL " +
-                "Se lleva a cabo únicamente en el perio-" +
-                "do intersemestral del mes de julio y " +
-                "sirve para agilizar el proceso de certifi- " +
-                "cación del alumno. El procedimiento se " +
-                "publica en la página del plantel." +
-                "• ENTREGA DE DOCUMENTACIÓN " +
-                "DE EGRESO " +
-                "Se lleva a cabo al final de cada semes- " +
-                "tre para los alumnos que han concluido " +
-                "satisfactoriamente sus estudios. El " +
-                "procedimiento se publica en la página " +
-                "del plantel",
+                "CERTIFICACIÓN INTEGRAL \n" +
+                        "Se lleva a cabo \u00FAnicamente en el periodo intersemestral del mes de \n" +
+                        "julio y sirve para agilizar el proceso de certificaci\u00F3n del alumno.\n " +
+                        "El procedimiento se publica en la p\u00E1gina del plantel.\n" +
+                        "ENTREGA DE DOCUMENTACI\u00D3N DE EGRESO \n" +
+                "Se lleva a cabo al final de cada semestre para los alumnos que han concluido \n" +
+                        "satisfactoriamente sus estudios. El procedimiento se publica en la p\u00E1gina \n" +
+                "del plantel \n",
         "Espera..."
     };
 
@@ -396,7 +368,6 @@ public class WikiBatiz {
         }
     }
 
-    ;
 
 
     public static void PanelAdministrador() {
@@ -461,7 +432,7 @@ public class WikiBatiz {
     }
 
     public static void Separacion() {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 150; i++) {
             System.out.print("_");
         }
         System.out.println('\n');
